@@ -19,8 +19,8 @@ Menampilkan daftar kota, pilihan dan detail hotel, serta tampilan yang responsif
 
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/nabilanugerah/nginep.git
-cd nginep
+git clone https://github.com/Anugerah20/Nginep-FE.git
+cd Nginep-FE
 ```
 ### 2️⃣ Install Dependencies
 ```bash
