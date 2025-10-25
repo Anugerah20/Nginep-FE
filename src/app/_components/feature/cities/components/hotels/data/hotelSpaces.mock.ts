@@ -1,0 +1,238 @@
+import { hotelSpace } from "../types/hotelSpace.types";
+
+export const hotelSpaces: hotelSpace[] = [
+  {
+    id: 1,
+    title: "Hotel Tabanan Bali Super High Class",
+    slug: "hotel-tabanan-bali-super-high-class",
+    price: 18000000,
+    duration: "20 days",
+    location: "Tabanan",
+    rating: 4.5,
+    address: "Dekat Caffe Ala Bapak di Bali No 44",
+    image: "/assets/images/thumbnails/thumbnails-1.png",
+    images: [
+      "/assets/images/thumbnails/thumbnails-1.jpg",
+      "/assets/images/thumbnails/thumbnails-2.jpg",
+    ],
+    tags: ["Popular"],
+    about:
+      "Experience a luxurious escape surrounded by rice terraces and fresh mountain air in Tabanan, Bali.",
+    features: [
+      "Privacy",
+      "Free Food",
+      "Free Snack",
+      "Wifi",
+      "Free Swimming",
+      "Free Move",
+    ],
+    isFullBooked: false,
+    salesContacts: [
+      {
+        name: "Mark",
+        role: "Head Sales",
+        avatar: "/assets/images/photos/photo-1.png",
+      },
+      {
+        name: "Doe",
+        role: "Sales",
+        avatar: "/assets/images/photos/photo-2.png",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Ubud Serenity Eco Resort",
+    slug: "ubud-serenity-eco-resort",
+    price: 9500000,
+    duration: "10 days",
+    location: "Gianyar",
+    rating: 4.8,
+    address: "Jl. Raya Ubud No. 21, Gianyar, Bali",
+    image: "/assets/images/thumbnails/thumbnails-1.png",
+    images: [
+      "/assets/images/thumbnails/thumbnails-3.jpg",
+      "/assets/images/thumbnails/thumbnails-4.jpg",
+    ],
+    tags: ["Eco Friendly"],
+    about:
+      "Stay close to nature in a peaceful eco-resort surrounded by lush tropical forests and rivers.",
+    features: [
+      "Eco Energy",
+      "Private Villa",
+      "Free Yoga",
+      "Breakfast Included",
+      "Infinity Pool",
+      "Wifi",
+    ],
+    isFullBooked: false,
+    salesContacts: [
+      {
+        name: "Ayu",
+        role: "Reservation Manager",
+        avatar: "/assets/images/photos/photo-2.png",
+      },
+      {
+        name: "Gede",
+        role: "Sales Executive",
+        avatar: "/assets/images/photos/photo-1.png",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Kuta Beachfront Paradise Hotel",
+    slug: "kuta-beachfront-paradise-hotel",
+    price: 12500000,
+    duration: "15 days",
+    location: "Badung",
+    rating: 4.6,
+    address: "Jl. Pantai Kuta No. 9, Badung, Bali",
+    image: "/assets/images/thumbnails/thumbnails-1.png",
+    images: [
+      "/assets/images/thumbnails/thumbnails-5.jpg",
+      "/assets/images/thumbnails/thumbnails-6.jpg",
+    ],
+    tags: ["Beachfront"],
+    about:
+      "Enjoy the sound of the waves right from your balcony with premium beach access and sunset views.",
+    features: [
+      "Beach Access",
+      "Rooftop Bar",
+      "Wifi",
+      "Spa",
+      "Breakfast Included",
+      "Airport Shuttle",
+    ],
+    isFullBooked: true,
+    salesContacts: [
+      {
+        name: "Rio",
+        role: "Marketing Lead",
+        avatar: "/assets/images/photos/photo-1.png",
+      },
+      {
+        name: "Clara",
+        role: "Sales Staff",
+        avatar: "/assets/images/photos/photo-2.png",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Seminyak Luxury Boutique Hotel",
+    slug: "seminyak-luxury-boutique-hotel",
+    price: 14000000,
+    duration: "12 days",
+    location: "Badung",
+    rating: 4.9,
+    address: "Jl. Kayu Aya No. 77, Seminyak, Badung, Bali",
+    image: "/assets/images/thumbnails/thumbnails-1.png",
+    images: [
+      "/assets/images/thumbnails/thumbnails-3.jpg",
+      "/assets/images/thumbnails/thumbnails-2.jpg",
+    ],
+    tags: ["Luxury"],
+    about:
+      "A stylish modern boutique hotel offering private pools, spa treatments, and world-class dining in Seminyak.",
+    features: [
+      "Private Pool",
+      "Fine Dining",
+      "Spa",
+      "Gym Access",
+      "Airport Pickup",
+      "Wifi",
+    ],
+    isFullBooked: false,
+    salesContacts: [
+      {
+        name: "Sarah",
+        role: "Front Desk Manager",
+        avatar: "/assets/images/photos/photo-2.png",
+      },
+      {
+        name: "Budi",
+        role: "Sales Coordinator",
+        avatar: "/assets/images/photos/photo-1.png",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Lovina Ocean View Resort",
+    slug: "lovina-ocean-view-resort",
+    price: 11000000,
+    duration: "14 days",
+    location: "Buleleng",
+    rating: 4.7,
+    address: "Jl. Lovina Beach No. 5, Singaraja, Buleleng, Bali",
+    image: "/assets/images/thumbnails/thumbnails-1.png",
+    images: [
+      "/assets/images/thumbnails/thumbnails-1.jpg",
+      "/assets/images/thumbnails/thumbnails-5.jpg",
+    ],
+    tags: ["Sea View"],
+    about:
+      "Wake up to breathtaking ocean views and enjoy dolphin watching at the beautiful Lovina Beach.",
+    features: [
+      "Sea View",
+      "Breakfast Buffet",
+      "Dolphin Tour",
+      "Wifi",
+      "Free Parking",
+      "Restaurant",
+    ],
+    isFullBooked: false,
+    salesContacts: [
+      {
+        name: "Wayan",
+        role: "Sales Executive",
+        avatar: "/assets/images/photos/photo-1.png",
+      },
+      {
+        name: "Lina",
+        role: "Guest Relations",
+        avatar: "/assets/images/photos/photo-2.png",
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: "Karangasem Mountain Retreat",
+    slug: "karangasem-mountain-retreat",
+    price: 8700000,
+    duration: "10 days",
+    location: "Karangasem",
+    rating: 4.4,
+    address: "Jl. Besakih No. 88, Karangasem, Bali",
+    image: "/assets/images/thumbnails/thumbnails-1.png",
+    images: [
+      "/assets/images/thumbnails/thumbnails-6.jpg",
+      "/assets/images/thumbnails/thumbnails-4.jpg",
+    ],
+    tags: ["Nature"],
+    about:
+      "Relax in the highlands of East Bali with mountain views and fresh air, perfect for a quiet retreat.",
+    features: [
+      "Mountain View",
+      "Yoga Deck",
+      "Organic Food",
+      "Free Parking",
+      "Wifi",
+      "Nature Walk",
+    ],
+    isFullBooked: false,
+    salesContacts: [
+      {
+        name: "Made",
+        role: "Sales Supervisor",
+        avatar: "/assets/images/photos/photo-1.png",
+      },
+      {
+        name: "Dewi",
+        role: "Reservation Staff",
+        avatar: "/assets/images/photos/photo-2.png",
+      },
+    ],
+  },
+];
