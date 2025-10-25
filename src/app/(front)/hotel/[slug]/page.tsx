@@ -44,7 +44,6 @@ export default async function DetailHotel({ params }: Props) {
         id="Details"
         className="relative flex flex-col lg:flex-row max-w-[1130px] mx-auto gap-8 md:gap-[30px] px-5 md:px-0 mb-20 z-10"
       >
-        {/* Kiri */}
         <div className="flex flex-col w-full rounded-[20px] border border-[#E0DEF7] p-5 md:p-[30px] gap-5 md:gap-[30px] bg-white">
           {hotel.tags.map((tag, i) => (
             <p
@@ -89,12 +88,11 @@ export default async function DetailHotel({ params }: Props) {
           <hr className="border-[#F6F5FD]" />
 
           <div className="flex flex-col gap-2">
-            <h2 className="font-bold text-lg">Office Address</h2>
+            <h2 className="font-bold text-lg">Address</h2>
             <p className="text-gray-700 text-sm md:text-base">
               {hotel.address}
             </p>
           </div>
-
           <div className="overflow-hidden w-full h-[250px] sm:h-[300px] md:h-[280px] rounded-md">
             <iframe
               className="h-full w-full border-0"
@@ -104,8 +102,6 @@ export default async function DetailHotel({ params }: Props) {
             />
           </div>
         </div>
-
-        {/* Kanan */}
         <div className="w-full lg:w-[392px] flex flex-col shrink-0 gap-6 md:gap-[30px]">
           <div className="flex flex-col rounded-[20px] border border-[#E0DEF7] p-5 md:p-[30px] gap-5 md:gap-[30px] bg-white">
             {hotel.isFullBooked ? (
@@ -154,7 +150,6 @@ export default async function DetailHotel({ params }: Props) {
               Book This Hotel
             </a>
           </div>
-
           <div className="flex flex-col rounded-[20px] border border-[#E0DEF7] p-5 md:p-[30px] gap-5 bg-white">
             <h2 className="font-bold text-lg md:text-xl">Contact Our Sales</h2>
             <div className="flex flex-col gap-5 md:gap-[30px]">
