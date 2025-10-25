@@ -13,7 +13,7 @@ export default function Hero() {
         />
         <div className="absolute bg-black opacity-50 inset-0"></div>
         <div className="flex flex-col justify-center items-center text-center h-full relative">
-          <h1 className="text-7xl font-extrabold capitalize leading-tight mb-3">
+          <h1 className="text-6xl font-extrabold capitalize leading-tight mb-3">
             Experience a stay beyond comfort
           </h1>
           <p className="text-xl mb-8 text-gray-300">
