@@ -20,7 +20,7 @@ export default function CitiesSection() {
             href="#"
             className="inline-block rounded-full py-3 px-6 bg-orange-500 text-white font-semibold text-sm sm:text-base hover:bg-orange-600 transition-all"
           >
-            Explore All City
+            Explore All Now
           </a>
         </div>
         <Swiper
