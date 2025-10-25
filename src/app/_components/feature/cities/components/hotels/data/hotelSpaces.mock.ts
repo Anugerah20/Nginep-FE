@@ -12,7 +12,7 @@ export const hotelSpaces: hotelSpace[] = [
     address: "Dekat Caffe Ala Bapak di Bali No 44",
     image: "/assets/images/thumbnails/thumbnails-1.png",
     images: [
-      "/assets/images/thumbnails/thumbnails-1.jpg",
+      "/assets/images/thumbnails/thumbnails-3.jpg",
       "/assets/images/thumbnails/thumbnails-2.jpg",
     ],
     tags: ["Popular"],
@@ -52,7 +52,7 @@ export const hotelSpaces: hotelSpace[] = [
     image: "/assets/images/thumbnails/thumbnails-1.png",
     images: [
       "/assets/images/thumbnails/thumbnails-3.jpg",
-      "/assets/images/thumbnails/thumbnails-4.jpg",
+      "/assets/images/thumbnails/thumbnails-2.jpg",
     ],
     tags: ["Eco Friendly"],
     about:
@@ -90,8 +90,8 @@ export const hotelSpaces: hotelSpace[] = [
     address: "Jl. Pantai Kuta No. 9, Badung, Bali",
     image: "/assets/images/thumbnails/thumbnails-1.png",
     images: [
-      "/assets/images/thumbnails/thumbnails-5.jpg",
-      "/assets/images/thumbnails/thumbnails-6.jpg",
+      "/assets/images/thumbnails/thumbnails-3.jpg",
+      "/assets/images/thumbnails/thumbnails-2.jpg",
     ],
     tags: ["Beachfront"],
     about:
@@ -168,8 +168,8 @@ export const hotelSpaces: hotelSpace[] = [
     address: "Jl. Lovina Beach No. 5, Singaraja, Buleleng, Bali",
     image: "/assets/images/thumbnails/thumbnails-1.png",
     images: [
-      "/assets/images/thumbnails/thumbnails-1.jpg",
-      "/assets/images/thumbnails/thumbnails-5.jpg",
+      "/assets/images/thumbnails/thumbnails-3.jpg",
+      "/assets/images/thumbnails/thumbnails-2.jpg",
     ],
     tags: ["Sea View"],
     about:
@@ -207,8 +207,8 @@ export const hotelSpaces: hotelSpace[] = [
     address: "Jl. Besakih No. 88, Karangasem, Bali",
     image: "/assets/images/thumbnails/thumbnails-1.png",
     images: [
-      "/assets/images/thumbnails/thumbnails-6.jpg",
-      "/assets/images/thumbnails/thumbnails-4.jpg",
+      "/assets/images/thumbnails/thumbnails-3.jpg",
+      "/assets/images/thumbnails/thumbnails-2.jpg",
     ],
     tags: ["Nature"],
     about:
